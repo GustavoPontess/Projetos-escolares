@@ -2,7 +2,7 @@
 function Imc() {
 var nome = document.getElementById('nome').value;
 var peso = document.getElementById('peso').value;
-var altura = document.getElementById('altura').value().replace(",",".");
+var altura = document.getElementById('altura').value;
 if(nome ==''||peso==''||altura==''){
     window.alert('Preencha todos os campos!!!')
     return false;
