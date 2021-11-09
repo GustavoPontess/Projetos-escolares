@@ -7,3 +7,7 @@ Neste projeto, a partir do nome, da idade e da altura do usuário, calcula-se o 
 Neste projeto, a partir do nome, peso, distancia percorrida e tempo gasto, calcula-se a velocidade média, pace e calorias gastas.
 
 <a href="https://gustavopontess.github.io/Projetos-escolares/Corrida/"><img src="Corrida/corrida.png" ></a>
+
+<h1>Projeto individual 2</h1>
+
+<a href="https://gustavopontess.github.io/Projetos-escolares/calFinan/"><img src="calFinan/finan.png" ></a>
