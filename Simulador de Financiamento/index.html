@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcelamento</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body style="background: url(../Corrida/background.png);">
+    <div class="mt-5 d-flex justify-content-center">
+        <div class="pt-4 pb-4 d-flex flex-column bd-highlight" style="background-color: darkgray; width: 380px; border-radius: 10px;">
+            <header class="text-center">
+                <h1>Parcelamento</h1>
+            </header>
+            <div class="px-4 bd-highlight">
+                <div class="input-group mb-3">
+                    <input class="form-control" id="rendaMensal" type="number" placeholder="Renda mensal">
+                </div>
+                <div class="input-group mb-3">
+                    <input class="form-control" id="valorBem" type="number" placeholder="Valor do bem a ser financiado">
+                </div>
+                <div class="input-group mb-3">
+                    <input class="form-control" id="valorEntrada" type="number" placeholder="Valor da entrada">
+                </div>
+                <div class="input-group mb-3">
+                    <input class="form-control" id="taxaJuros" type="number" placeholder="Taxa de juros">
+                </div>
+                <div class="input-group mb-3">
+                    <input class="form-control" id="numParcelas" type="number" placeholder="Número de prestações">
+                </div>
+            </div>
+            <button class="btn btn-secondary mx-3" onclick="calcularParcelamento()">Calcular</button>
+            <div id="resultado" class="text-center"></div>
+            <footer class="text-center mt-3">&copy; Cotemig</footer>
+        </div>
+    </div>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
