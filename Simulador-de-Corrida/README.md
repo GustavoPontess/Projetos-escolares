@@ -36,8 +36,12 @@ O **Simulador de Corrida** é uma ferramenta que permite calcular a velocidade m
 ## Estrutura do Projeto 📂
 ```
 Simulador-de-Corrida/
-│── index.html        # Interface da ferramenta
-│── corrida_script.js # Lógica de cálculo e validação
-│── background.png    # Imagem de fundo do projeto
-│── corrida.png       # Imagem relacionada ao projeto
+├── assets/          # Recursos do projeto
+│   ├── img/
+│   │   ├── background.png
+│   │   ├── corrida.png
+├── js/              # Arquivo JavaScript
+│   ├── corrida_script.js
+├── index.html       # Página principal do projeto
+├── README.md        # Documentação do projeto
 ```
