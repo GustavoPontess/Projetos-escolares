@@ -40,8 +40,12 @@ Este projeto pode ser utilizado para avaliar a viabilidade de um financiamento, 
 
 ## Estrutura do Projeto 📂
 ```
-calFinan/
-│── index.html        # Interface da calculadora
-│── JavaScript.js     # Lógica de cálculo do financiamento
-│── finan.png         # Imagem do projeto
+Simulador-de-Financiamento/
+├── assets/
+│   ├── img/
+│   │   ├── finan.png
+│   ├── js/
+│   │   ├── JavaScript.js
+├── index.html       # Página principal do simulador
+├── README.md        # Documentação do projeto
 ```
