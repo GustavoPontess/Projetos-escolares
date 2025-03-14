@@ -1,34 +1,50 @@
-# Repositório de Projetos Escolares 📚
+# 📚 Cotemig Projects
 
-Este repositório contém diversos projetos desenvolvidos durante o ensino médio técnico. Cada projeto está documentado e pode ser acessado individualmente.
+## 📖 Sobre o Repositório
 
-## 📌 Projetos Disponíveis
+O **Cotemig Projects** reúne os projetos desenvolvidos durante o meu Ensino Médio Técnico no **Colégio Cotemig**. Cada projeto foi criado para aplicar conceitos de programação, desenvolvimento web e banco de dados, seguindo boas práticas de estruturação e organização de código.
 
-- [Simulador de Financiamento](./Simulador-de-Financiamento/README.md) 🏦
-  - Calculadora de financiamento que permite estimar parcelas com base na renda, valor do bem, entrada e taxa de juros.
+## 🏗 Estrutura do Repositório
 
-- **Corrida** 🏁
-  - Projeto interativo relacionado a uma corrida, com elementos gráficos e lógica implementada em JavaScript.
+```
+cotemig-projects/
+│── README.md                # Documentação principal do repositório
+│
+├── imc-calculator-js/        # Calculadora de IMC em JavaScript
+├── imc-calculator-php/       # Calculadora de IMC com backend em PHP
+├── loan-simulator/           # Simulador de financiamento
+├── player-viewer/            # Visualizador de jogadores cadastrados
+├── race-simulator/           # Simulador de corrida
+├── recipe-manager/           # Gerenciador de receitas
+├── user-viewer/              # Sistema para visualizar usuários
+└── virtual-store/            # Loja virtual simples
+```
 
-- **CRUD** 🗃️
-  - Sistema de gerenciamento de dados utilizando PHP para autenticação e operações de banco de dados.
+## 🛠 Tecnologias Utilizadas
 
-- **Desafio** 🎯
-  - Projeto com estrutura simples utilizando HTML, CSS e JavaScript.
-
-- **IMC** ⚖️
-  - Calculadora de Índice de Massa Corporal (IMC) para avaliar a relação entre peso e altura.
-
-## 💡 Como utilizar os projetos
-Cada projeto contém um arquivo `README.md` próprio com informações detalhadas sobre seu funcionamento, tecnologias utilizadas e instruções de uso.
-
-Para acessar um projeto, basta entrar na pasta correspondente e abrir o arquivo `index.html` no navegador (quando aplicável) ou configurar o ambiente conforme descrito na documentação do projeto.
-
-## 🔧 Tecnologias utilizadas
 Os projetos utilizam diversas tecnologias, incluindo:
-- **HTML, CSS e JavaScript** para a interface e interatividade.
-- **PHP e MySQL** para sistemas que envolvem banco de dados.
-- **Bootstrap** para estilização e responsividade em alguns projetos.
 
-Este repositório serve como um portfólio de aprendizado e experimentação com diferentes linguagens e frameworks. 🚀
+- **HTML5, CSS3 & Bootstrap** - Para estruturação e estilização das interfaces.
+- **JavaScript & PHP** - Para lógica de funcionamento e manipulação de dados.
+- **MySQL** - Para armazenamento de informações em banco de dados.
 
+## 📋 Como Usar
+
+1. Escolha um projeto dentro do repositório.
+2. Leia o arquivo `README.md` específico de cada projeto para obter instruções detalhadas.
+3. Execute os arquivos `index.html` ou `index.php` conforme necessário.
+4. Caso o projeto utilize banco de dados, importe o arquivo `database.sql` antes de iniciar.
+
+## 📊 Projetos Destacados
+
+✅ [**IMC Calculator JS**](imc-calculator-js/README.md) - Calculadora de Índice de Massa Corporal.
+
+✅ [**IMC Calculator PHP**](imc-calculator-php/README.md) - Calculadora de Índice de Massa Corporal.
+
+✅ [**Loan Simulator**](loan-simulator/README.md) - Simulador de financiamento com cálculo de parcelas.
+
+✅ [**Race Simulator**](./race-simulator/README.md) - Simulador interativo de corrida.
+
+---
+
+📌 **Observação:** O repositório pode ser atualizado com novos projetos e melhorias. Caso tenha sugestões ou queira contribuir, sinta-se à vontade para colaborar!

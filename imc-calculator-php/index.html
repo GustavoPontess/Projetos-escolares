@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro escolar</title>
+    <link rel="stylesheet" href="public/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="public/styles/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="frmlogin">
+            <h1 class="text-center">IMC</h1>
+            <form action="backend/calculo.php" method="post">
+                <div class="form-group">
+                    <label for="peso">Digite seu peso em Gramas</label>
+                    <label>Exemplo: 56 Kg -> 56000 G</label>
+                    Peso: <input type="number" name="peso" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="altura">Digite sua altura em Centímetros</label>
+                    <label>Exemplo: 1,70 M -> 170 cm</label>
+                    Altura: <input type="number" name="altura" class="form-control" required>
+                </div>
+                <button class="btn btn-dark" type="submit">Confirmar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
