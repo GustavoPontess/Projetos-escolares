@@ -10,6 +10,7 @@ O **Cotemig Projects** reúne os projetos desenvolvidos durante o meu Ensino Mé
 cotemig-projects/
 │── README.md                # Documentação principal do repositório
 │
+├── compound-interest-calculator # Calculadora de juros compostos
 ├── imc-calculator-js/        # Calculadora de IMC em JavaScript
 ├── imc-calculator-php/       # Calculadora de IMC com backend em PHP
 ├── loan-simulator/           # Simulador de financiamento
