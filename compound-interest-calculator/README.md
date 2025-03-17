@@ -16,9 +16,9 @@ A **Calculadora de Juros Compostos** é uma aplicação web desenvolvida para au
 compound-interest-calculator/
 │── README.md                 # Documentação do projeto
 │── public/                    # Recursos estáticos
-│   ├── images/
-│   │   ├── reference.png      # Captura de tela do projeto
-│   ├── styles/                # Estilos do projeto
+│   ├── img/
+│   │   ├── background.png #imagen de fundo do projeto
+│   │   ├── img.png      # Captura de tela do projeto
 │   ├── scripts/
 │   │   ├── main.js           # Código JavaScript principal
 │── index.html                 # Página principal da calculadora
